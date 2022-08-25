@@ -1,0 +1,11 @@
+.picture__wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+  border: 3px solid var(--bg-additional);
+  border-radius: 4px;
+}
+.picture__wrapper > img {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}

@@ -1,0 +1,12 @@
+.contact__number {
+  font-size: var(--fs-md);
+  color: var(--white);
+  text-shadow: 0 0 4px var(--white);
+}
+.contact {
+  gap: 10px;
+}
+.contact > object {
+  width: 30px;
+  height: 30px;
+}

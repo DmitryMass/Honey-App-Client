@@ -1,0 +1,36 @@
+.honey__box {
+  max-width: 450px;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: var(--bg-card-gold);
+  transition: all 0.2s ease;
+  transform: scale(1);
+}
+.honey__box:hover {
+  box-shadow: 0px 0px 8px 4px var(--white);
+  transform: scale(1.02);
+  transition: all 0.2s ease-out;
+}
+/* .honey__img {
+} */
+.honey__img > img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+.honey__body {
+  color: var(--black);
+  margin: 15px auto 10px;
+  text-align: center;
+}
+.honey__title {
+  font-size: var(--fs-md-md);
+  font-weight: 600;
+}
+.honey__amount,
+.honey__price {
+  font-size: var(--fs-md);
+  font-weight: 500;
+  margin: 15px 0px;
+}

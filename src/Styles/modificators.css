@@ -1,0 +1,46 @@
+/* Button modificator */
+.button__header {
+  font-size: var(--fs-md);
+  margin-top: 25px;
+  background: var(--btn-header);
+  box-shadow: 0px 0px 5px 5px var(--btn-shadow);
+  font-style: italic;
+  transition: all 0.2s ease;
+  width: 200px;
+  height: 40px;
+}
+.button__header:hover {
+  transition: all 0.2s ease;
+  box-shadow: 0px 0px 5px 3px var(--white);
+}
+
+.button__honey {
+  width: 100px;
+  height: 35px;
+  background: var(--btn-header);
+  font-size: var(--fs-sm);
+  transition: all 0.2s ease;
+}
+.button__honey:hover {
+  transition: all 0.2s ease;
+  box-shadow: inset 0px 0px 5px 3px var(--btn-shadow);
+}
+/* Contact Modificator (Header - Main) */
+.contact__main {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .contact__header {
+    display: none;
+  }
+  .contact__main {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

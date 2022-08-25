@@ -1,0 +1,1 @@
+export { defaultw } from './TextInfo';
