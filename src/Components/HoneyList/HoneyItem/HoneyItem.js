@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../Button/Button';
 import styles from './honey-item.m.css';
 
-const HoneyItem = ({ honey }) => {
+const HoneyItem = ({ honey, handleClick }) => {
   const { title, amount, price, img } = honey;
   return (
     <div className={styles.honey__box}>
@@ -13,7 +13,9 @@ const HoneyItem = ({ honey }) => {
         <h3 className={styles.honey__title}>{title}</h3>
         <p className={styles.honey__amount}>{amount}</p>
         <p className={styles.honey__price}>{price}</p>
-        <Button modificator={'honey'}>Замовити</Button>
+        <Button handleClick={handleClick} modificator={'honey'}>
+          Замовити
+        </Button>
       </div>
     </div>
   );

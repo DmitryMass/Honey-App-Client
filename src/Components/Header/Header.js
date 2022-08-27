@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className='container flex__container'>
-        <PhoneNumber modificator={'header'} />
-        <Logo />
+        <PhoneNumber modificator={'header'} flex={'centered'} />
+        <Logo modificator={'logo__header'} />
       </div>
     </header>
   );

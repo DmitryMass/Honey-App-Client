@@ -7,14 +7,20 @@ import Title from '../Title/Title';
 
 import styles from './honey-list.m.css';
 
-const HoneyList = ({ scrolls }) => {
+const HoneyList = ({ scrolls, handleClick }) => {
   return (
     <section className={styles.honeyList} ref={scrolls}>
       <div className='container'>
         <Title>В наявності</Title>
         <div className='grid__container'>
           {honeyList.map((item) => {
-            return <HoneyItem key={nanoid()} honey={item} />;
+            return (
+              <HoneyItem
+                key={nanoid()}
+                honey={item}
+                handleClick={handleClick}
+              />
+            );
           })}
         </div>
       </div>

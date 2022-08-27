@@ -1,0 +1,17 @@
+.question__wrapper {
+  max-width: 450px;
+}
+
+.question__field {
+  gap: 5px;
+}
+.question__question {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .question__question {
+    text-align: center;
+  }
+}

@@ -25,6 +25,20 @@
   transition: all 0.2s ease;
   box-shadow: inset 0px 0px 5px 3px var(--btn-shadow);
 }
+
+.button__order {
+  width: 150px;
+  height: 35px;
+  background: var(--btn-header);
+  font-size: var(--fs-sm);
+  transition: all 0.2s ease;
+  display: block;
+  margin: 15px auto 0px;
+}
+.button__order:hover {
+  transition: all 0.2s ease;
+  box-shadow: inset 0px 0px 5px 3px var(--btn-shadow);
+}
 /* Contact Modificator (Header - Main) */
 .contact__main {
   display: none;
@@ -43,4 +57,30 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+/*Title modificator  */
+
+.title__order {
+  text-align: center;
+}
+.title__gallery {
+  padding-bottom: 15px;
+}
+
+/* Object Logo modificator */
+.logo__header,
+.logo__footer {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.logo__footer {
+  height: 120px;
+}
+.footer__logo {
+  width: 180px;
 }

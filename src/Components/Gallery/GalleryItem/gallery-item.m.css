@@ -1,7 +1,7 @@
 .picture__wrapper {
   max-width: 450px;
   margin: 0 auto;
-  border: 3px solid var(--bg-additional);
+  border: 3px solid #cfcccc8f;
   border-radius: 4px;
 }
 .picture__wrapper > img {

@@ -1,0 +1,47 @@
+.input__wrapper {
+  width: 100%;
+}
+.input__input,
+.input__crash,
+.input__textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 9px;
+  font-size: var(--fs-sm);
+  border: 1px solid var(--border-light);
+}
+.input__input:focus {
+  box-shadow: inset 0px 0px 3px 1px var(--ok);
+}
+.input__crash {
+  box-shadow: inset 0 0 5px var(--red);
+  font-size: var(--fs-sm);
+}
+.input__error {
+  color: var(--error);
+  margin-bottom: 3px;
+  font-size: var(--fs-smallest);
+  font-weight: 300;
+}
+
+.input__amount,
+.input__container {
+  padding: 10px 10px 10px 15px;
+  border: none;
+  border-radius: 9px;
+  font-size: var(--fs-sm);
+  appearance: none;
+  background-image: url(../../Assets/Icons/bg-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 93% 7px;
+  cursor: pointer;
+}
+
+.input__amount::after,
+.input__container::after {
+  content: '';
+  width: 0.8em;
+  height: 0.5em;
+  background-color: var(--light-white);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}

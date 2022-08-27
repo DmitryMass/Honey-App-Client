@@ -3,10 +3,5 @@
   color: var(--white);
   margin-bottom: 20px;
   text-shadow: 0px 0px 4px var(--white);
-}
-
-@media screen and (max-width: 768px) {
-  .title {
-    text-align: center;
-  }
+  text-align: center;
 }

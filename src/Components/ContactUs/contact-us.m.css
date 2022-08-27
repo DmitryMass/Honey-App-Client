@@ -1,0 +1,16 @@
+.email {
+  font-size: var(--fs-md);
+  color: var(--white);
+  text-shadow: 0 0 4px var(--white);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.email > object {
+  width: 30px;
+  height: 30px;
+}
+
+.email__link {
+  color: var(--white);
+}

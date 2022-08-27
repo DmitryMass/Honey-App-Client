@@ -1,5 +1,5 @@
 .main__wrapper {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 320px);
 }
 .main__section {
   min-height: 100vh;

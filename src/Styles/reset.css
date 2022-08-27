@@ -445,6 +445,13 @@ select {
   box-sizing: border-box;
 }
 
+input,
+select,
+textarea {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -456,4 +463,8 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Raleway', sans-serif;
+}
+
+select::-ms-expand {
+  display: none;
 }
