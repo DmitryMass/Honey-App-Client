@@ -10,7 +10,7 @@ import { useUserQuestionMutation } from '../../../Store/Slices/questionSlice';
 import Spinner from '../../Spinner/Spinner';
 
 const Questions = () => {
-  const [userQuestion, { isLoading, isError, isSuccess }] =
+  const [userQuestion, { error, isLoading, isError, isSuccess }] =
     useUserQuestionMutation();
   const handleSubmit = async (values, { resetForm }) => {
     const email = values.email.trim();
@@ -21,6 +21,8 @@ const Questions = () => {
     }
     resetForm();
   };
+
+  console.log(error);
   return (
     <div className={styles.question__wrapper}>
       <p className={styles.question__question}>Маєте питання ?</p>

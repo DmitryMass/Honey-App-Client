@@ -3,7 +3,11 @@ import styles from './load-error.m.css';
 
 const LoadnError = ({ error, success }) => {
   if (success) {
-    return <div className={styles.message__success}>Дякуємо за замовлення</div>;
+    return (
+      <div className={styles.message__success}>
+        Дякуємо. Очікуйте зворотній зв'язок.
+      </div>
+    );
   }
   if (error) {
     return (
