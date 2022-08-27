@@ -1,6 +1,6 @@
 import fastify from 'fastify';
-import { fastifyHttpProxy } from '@fastify/http-proxy';
-import { fastifyStatic } from '@fastify/static';
+import fastifyStatic from '@fastify/static';
+import fastifyHttpProxy from '@fastify/http-proxy';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import * as dotenv from 'dotenv';
