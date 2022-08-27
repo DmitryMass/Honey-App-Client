@@ -1,10 +1,10 @@
 import fastify from 'fastify';
-import fastifyHttpProxy from '@fastify/http-proxy';
-import fastifyStatic from '@fastify/static';
+import { fastifyHttpProxy } from '@fastify/http-proxy';
+import { fastifyStatic } from '@fastify/static';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
 import * as dotenv from 'dotenv';
 dotenv.config();
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -26,6 +26,7 @@ server.register(fastifyHttpProxy, {
 });
 
 ROUTES.forEach((element) => {
+  console.log(element);
   server.get(element, async (request, reply) => {
     return reply.sendFile('index.html', join(__dirname, 'dist'));
   });

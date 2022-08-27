@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack --mode=production",
     "postinstall": "webpack --mode=production",
-    "start-client": "webpack serve --open --mode=development",
+    "starting": "webpack serve --open --mode=development",
     "start": "node index.mjs"
   },
   "keywords": [],
@@ -44,8 +44,7 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.0",
-    "dotenv": "^16.0.1"
+    "webpack-dev-server": "^4.10.0"
   },
   "browserslist": {
     "production": [
