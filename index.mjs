@@ -34,7 +34,7 @@ ROUTES.forEach((element) => {
 
 server
   .listen({
-    port: process.env.PORT || 8081,
+    port: process.env.PORT || 8082,
     host: '0.0.0.0',
   })
   .then(() => console.log(process.env.PORT));
