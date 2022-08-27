@@ -22,7 +22,7 @@ server.register(fastifyStatic, {
 server.register(fastifyHttpProxy, {
   upstream: 'https://honey-app-server.herokuapp.com/api',
   prefix: '/api',
-  http: true,
+  // http: true,
 });
 
 ROUTES.forEach((element) => {
