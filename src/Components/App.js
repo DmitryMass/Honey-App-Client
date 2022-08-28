@@ -16,13 +16,7 @@ const App = () => {
     <div className='app'>
       <div className={styles.main__wrapper}>
         <section className={styles.main__section}>
-          <video
-            className={styles.main__video}
-            autoPlay
-            loop
-            muted
-            preload={true}
-          >
+          <video className={styles.main__video} autoPlay loop muted>
             <source src={bgcVideo} type='video/mp4' />
           </video>
           <div className={styles.main__overlay} />

@@ -22,7 +22,6 @@ const Questions = () => {
     resetForm();
   };
 
-  console.log(error);
   return (
     <div className={styles.question__wrapper}>
       <p className={styles.question__question}>Маєте питання ?</p>
