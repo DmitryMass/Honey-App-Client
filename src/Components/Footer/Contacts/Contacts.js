@@ -6,7 +6,7 @@ import styles from './contacts.m.css';
 const Contacts = () => {
   return (
     <div className={styles.contacts__wrapper}>
-      <p>Зв'язатися з нами</p>
+      <p className={styles.contacts__title}>Або повідомте нам</p>
       <ContactUs />
     </div>
   );

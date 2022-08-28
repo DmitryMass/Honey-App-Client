@@ -1,3 +1,16 @@
 .contacts__wrapper {
   text-align: left;
 }
+
+.contacts__title {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 10px;
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .contacts__title {
+    display: block;
+  }
+}
