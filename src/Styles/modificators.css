@@ -15,7 +15,7 @@
 }
 
 .button__honey {
-  width: 100px;
+  min-width: 130px;
   height: 35px;
   background: var(--btn-header);
   font-size: var(--fs-sm);
