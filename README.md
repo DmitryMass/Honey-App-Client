@@ -1,5 +1,8 @@
 Honey App
 Пет-проект для личных целей. В открытом доступе, будет дорабатываться.
+Поскольку хероку использует базу данных сервера, загрузка вебстраницы может занять несколько секунд.
+
+https://honey-app-client.herokuapp.com/
 
 Используемые технологии:
 
@@ -21,3 +24,8 @@ Client/FrontEnd:
 5. Module-CSS
 6. Webpack/Babel (build)
 7. Swiper (Slider)
+
+Deploy:
+
+1. Server (Heroku)
+2. Client (Heroku)
