@@ -4,6 +4,8 @@ Honey App
 
 https://honey-app-client.herokuapp.com/
 
+![DESKTOP!](./src/Assets/Images/honey.png);
+
 Используемые технологии:
 
 Server/BackEnd:
