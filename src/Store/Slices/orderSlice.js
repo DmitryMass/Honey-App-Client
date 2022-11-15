@@ -18,5 +18,4 @@ export const orderApi = createApi({
   }),
 });
 
-// console.log(?);
 export const { useUserOrderMutation } = orderApi;
