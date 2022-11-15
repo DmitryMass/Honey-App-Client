@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const URL = 'http://localhost:5005/api';
+const URL = 'https://paradise-server.onrender.com/api';
 // const URL = '/api';
 
 export const questionApi = createApi({
